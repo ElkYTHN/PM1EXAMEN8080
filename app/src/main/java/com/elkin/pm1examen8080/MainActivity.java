@@ -194,7 +194,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     private void validarDatos() {
         if (lista_paises.size() == 0){
             Toast.makeText(getApplicationContext(), "Debe de ingresar un Pais" ,Toast.LENGTH_LONG).show();
